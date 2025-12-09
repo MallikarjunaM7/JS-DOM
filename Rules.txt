@@ -1,0 +1,26 @@
+Character Counter Rules:
+
+    1. If Password has lesser than 4 characters show STRENGTH: WEAK (Red Text)
+    2. If Password has more than 4 characters and less than 8 characters show STRENGTH: MEDIUM (Orange Text)
+    3. If Password has more than 8 characters show STRENGTH: STRONG (Green text)
+    4. Display the character count whenever there are changes.
+
+Submit Button Rules:
+
+    4. If the STRENGTH of the Password is STRONG, then only the Submit button must be enabled.
+    5. If the STRENGTH is either WEAK or MEDIUM, the submit button must be disabled.
+
+Toggle Button Rules:
+
+    6. When you press on 👁️ button, password must be seen and button must change to 🙈.
+    7. When you press on 🙈 button, password must be hidden and button must change to 👁️.
+
+Confirm Password Field Rules:
+
+    8. When the Password STRENGTH is STRONG, new input field must be added adjecent to toggler.
+    9. When the password STRENGTH is not STRONG, confirm password field must be removed.
+
+Submission Rules:
+
+    10. When you click on submit, check if password and confirm password are same if same give Password updated alert.
+    11. If passwords doesn't match, give alert as passwords doesnt match.
