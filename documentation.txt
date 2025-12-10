@@ -1,0 +1,38 @@
+console.log("JS file connected!");
+
+
+document.getElementById("")
+document.getElementsByClassName("").item(0)
+document.getElementsByTagName("").item(0)
+document.querySelector(".intro")
+
+const element = document.getElementsByClassName("desc").item(0)
+
+element.className: Gets the clas name of the tag.
+element.id: Gets the id of the tag.
+
+element.textContent: The content of that tag, just the text.
+element.innerHTML: Gives the all the content inside the tag including other HTML Tags
+
+element.style.color: Color of the text
+element.style.fontSize: Gives the fontsize
+
+element.classList.add("classname"): Adds the class
+element.classList.remove("classname"): Removes the class
+
+const child = document.createElement("h2")
+child.textContent = "I am added here"
+document.body.appendChild(child)
+
+
+
+const button = document.getElementsByClassName("change_text").item(0)
+
+const whenClicked = () => {
+    Do Something
+}
+
+button.addEventListener("click", whenClicked)
+
+
+
